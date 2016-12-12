@@ -23,7 +23,7 @@ header {
 
 /*Check if this was a typo or it was correct*/
 header h1 {
-    font-size: 10em;
+    font-size: 10rem;
     color: white;
 }
 
