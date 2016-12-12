@@ -1,0 +1,33 @@
+main {
+    display: flex;
+}
+
+main aside {
+    min-width: 40%;
+}
+
+main article {
+    min-width: 320px;
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        height: 200px;
+    }
+    header h1 {
+        /*is this an error?????*/
+        font-size: 5em;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+    main article {
+        order:1;
+    }
+    main nav {
+        order: 3;
+    }
+    main aside {
+        order: 2;
+    }
+}
